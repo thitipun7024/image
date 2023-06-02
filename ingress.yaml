@@ -13,8 +13,8 @@ spec:
           service:
             name: thitipun-image
             port:
-              number: 8888
-        path: /thitipun/
+              number: 8000
+        path: /thitipun
         pathType: Prefix
 status:
   loadBalancer: {}

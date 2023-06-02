@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - image: thitipun7024/thitipun_image:latest
-        name: thitipun-image-tnxzr
+        name: thitipun-image
         resources: {}
 status: {}
