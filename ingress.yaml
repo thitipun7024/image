@@ -14,7 +14,7 @@ spec:
             name: thitipun-image
             port:
               number: 8888
-        path: /
+        path: /thitipun/
         pathType: Prefix
 status:
   loadBalancer: {}
