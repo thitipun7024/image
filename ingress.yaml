@@ -11,9 +11,9 @@ spec:
       paths:
       - backend:
           service:
-            name: nginx
+            name: thitipun-image
             port:
-              number: 8080
+              number: 8888
         path: /
         pathType: Prefix
 status:
