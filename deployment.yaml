@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: thitipun-image
+  name: thitipun-image
+  namespace: thitipun-image
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: thitipun-image
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: thitipun-image
+    spec:
+      containers:
+      - image: thitipun7024/thitipun_image:latest
+        name: thitipun-image-tnxzr
+        resources: {}
+status: {}
