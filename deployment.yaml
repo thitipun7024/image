@@ -19,7 +19,7 @@ spec:
         app: thitipun-image
     spec:
       containers:
-      - image: thitipun7024/thitipun_image:latest
+      - image: thitipun7024/thitipun_image
         name: thitipun-image
         resources: {}
 status: {}
